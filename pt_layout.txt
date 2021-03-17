@@ -1,0 +1,120 @@
+VERMONT DEPARTMENT OF TAXES
+PROPERTY TRANSFER RECORD LAYOUTS
+FOR
+Property Transfer Text File
+
+Description           Starting Length  Explanation
+
+Return Record		1	549	
+
+Key			
+  Town Code		1	3
+  Year/Month		4	4	Format YYMM
+   Year			8	2	Fiscal Year YY
+   Document #		10	6	
+   Record ID		16	2	00=Return Record, 10-99=Name Record
+Update Count		18	3	
+S/B			21	1	S = Seller, B = Buyer
+Filler			22	9	Zeros
+Alt Key			31	11	Alternate Key
+Name			42	36	
+Street			78	24	
+City			102	13
+State			115	2
+Zip Code		117	9
+Country			126	6
+County/Town Code	132	5	County/Town Code of Person  in Name field
+Return Number		137	7	Not Used Anymore
+Development Rights	144	1	Space=Unknown, Y=Yes, N=No
+Family Member Sale	145	1	Space=Unknown, Y=Yes, N=No
+Financing		146	1	Space=Unknown, 1=Bank, 2=Owner, 3=Other
+Purchased by Tenant	147	1	Space=Unknown, Y=Yes, N=No
+Buyer Has Adjoining Prop148	1	Space=Unknown, Y=Yes, N=No
+Property Location 1	149	36	1st 36 characters of Property location field
+Property Location 2	185	36	2nd 36 characters of Property location field
+Property Location Code	221	5	County/Town Code of Property Location
+Transfer Type		226	2	Fee Simple, etc. (Coded)
+Acreage			228	11	Position 238 is tenths of an acre
+Frontage		239	7
+Depth			246	7
+Building Code 1		253	2	See copy of Transfer Return for codes
+Building Code 2		255	2
+Building Code 3		257	2
+
+Number of Apartments	259	5
+Use Before		264	3	Code Describing Use Before Sale
+Use After		267	3	Code Describing Use After Sale
+Exemption Code		270	2	See exemptions listed on Page 2 and 3 of
+					Property Transfer Return Instructions
+Total Selling Price	272	11	Last 2 digits are cents in all money fields
+Personal Property	283	11	Value of Personal Property in Selling Price
+Real Value		294	11	Selling Price minus Personal Property
+Tax Due			305	11
+Tax Paid		316	11
+Special Circumstances	327	2	Code Defining any Special Circumstances
+Valid Sales Flag	329	1	1 = Valid, 2 = Invalid, 3= Other
+Acquired Date		330	7	Date Seller Acquired Property Format 0YYMMDD
+Filler			337	7
+Category Code		344	2	Category Code for type of Property
+Per Cent Interest	346	2	If less than 100% interest
+Filler			348	4
+Land Gains Code 1	352	2	See Land Gains exemptions on Page 4
+					of the Property Transfer Return Instructions
+Land Gains Code 2	354	2
+Land Gains Code 3	356	2
+SPAN			358	13	TTT-SSS-PPPPP Where TTT = 3 digit Town Code, 
+					SSS = 3 digit School Code, PPPPP = Parcel ID
+Acreage-D2		371	9	imply 2 decimal places
+Filler			358	15
+Act 291 Permit		395	8	Not keyed anymore (blank)
+Act 291 Exempt		403	1	Not keyed anymore (blank)
+Act 250 Permit		404	8	Not keyed anymore (blank)
+Act 250 Exempt		412	1	Not keyed anymore (blank)
+Town Name		413	13	Name of Town in which Deed is Recorded
+Date of Record		426	7	Date Deed was recorded Format 0YYMMDD
+Book Number		433	6	
+Page Number		439	6
+Listed Value		445	11	Listed Value as set by Town
+Listed Year		456	5	Format 0YYYY
+Filler			461	4
+Withholding Reason 	465	1	Reason Code for Real Estate Withholding Tax
+Certificate Number	466	7	Real Estate Withholding Certificate Number
+Batch Number		473	5
+Date Processed		478	7
+Incomplete Flag		485	1
+Sub Division		486	1
+Map/Parcel Number	487	16
+Date of Closing		503	7
+Filler			510	1
+Old Form Code		511	1
+Current Use Code	512	1
+Previously Occupied	513	1
+Residential Value	514	9	Value of Residential Portion up to 100G
+Use Value		523	11	Current Use Value
+Working Farm Value	534	11
+Filler			545	5
+
+
+Name Record		1	148
+	
+Key			
+  Town Code		1	3
+  Year/Month		4	4	Format YYMM
+   Year			8	2	Fiscal Year YY
+   Document Number	10	6	
+   Record ID		16	2	00=Return Record, 10-99=Name Record
+Update Count		18	3	
+S/B			21	1	S = Seller, B = Buyer
+Filler			22	9	Zeros
+Alt Key			31	11	Alternate Key
+Name			42	36	
+Street			78	24	
+City			102	13
+State			115	2
+Zip Code		117	9
+Country			126	6
+County/Town Code	132	5	County/Town Code of Person  in Name field
+Return Number		137	7	Not Used Anymore
+Filler			144	5
+	
+		 

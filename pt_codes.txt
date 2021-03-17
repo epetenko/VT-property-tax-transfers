@@ -1,0 +1,312 @@
+CATEGORY CODES
+
+CODE		DESCRIPTION
+
+  00			UNKNOWN
+  01			Residential less than 6 acres
+  02			Residential 6 acres or more
+  03			Mobile Home without land
+  04			Mobile Home with land
+  05			Vacation less than 6 acres
+  06			Vacation 6 acres or more
+  07			Commercial
+  08			Commercial Apt
+  09			Industrial
+  10			Utilities Electric
+  11			Utilities Other
+  12			Farms
+  13			Other
+  14			Timber/Wood Land
+  15			Miscellaneous/Open Land
+
+
+SPECIAL CIRCUMSTANCES CODES
+
+CODE			DESCRIPTION
+  00			None
+  01			Price Paid less than value of land
+  02			Straw Transfer
+  03			In Lieu of Foreclosure
+  04			Real Property is estimate by Tax Dept.
+  05			One of Several Returns for one Property
+  06			Contract Sales
+  07			Burned-out Buildings
+  08			Sales between members of the immediate family
+  09			Sales between a corporation and a stockholder
+  10			Tax sales; Sheriff's sales; Bankruptcy, Receivership,
+			Dissolution or Liquidation sales 
+  11			Sales by Guardians, Trustees, Executors, and 
+			Administrators
+  12			Sales to or from the U.S. Government, the State of 
+			Vermont or any Political subdivision of Vermont
+  13			Sales to or from any Charitable,  Religious or
+			Benevolent organization
+  14			Sales where unusual financing significantly affected
+			sale price
+  15			Sales where all assessed interests were not sold,
+			thereby affecting sale price
+  16			Sales of Property assessed in more than one town
+  17			Any sales that include personal property unless the
+			amount of the personal can be determined and
+			reported
+  18			Sales of Property conveying only a portion of the
+			assessed unit, such as a lot or lots sold off from a
+			farm
+  19			Sales where the property sold was substantially changed
+			assessment date but prior to date of sale
+  20			Other reasons
+
+VALID SALES FLAG
+
+The Valid Sales Flag is determined by the type of Special Circumstances Code used.
+
+CODE			Special Circumstances Code
+  01			00,01
+  02			05,07,11,12,16,18,19,20
+  03			02,03,04,06,08,09,10,13,14,15,17
+
+
+USE BEFORE/AFTER CODES
+
+CODE		DESCRIPTION
+100		Year Round Residence
+	101		Single Unit
+	102		Two Unit
+	103		Three Unit
+	104		Four Unit
+
+130		Condominium or Co-op Apartment (Year Round)
+	131		Condominium where land owned in common is
+ less than 6 acres
+	132		Condominium where land owned in common is
+			6 acres or more
+	135		Co-op apartment
+
+150		Mobile Home
+
+200		Camp or Vacation
+	201		Single family or no more than one camp on land parcel
+	202		Two family or two camps on land parcel
+	203		Three family or three camps on land parcel
+	204		Four family or four camps on land parcel
+
+230		Condominium or Co-0p Apartment (Vacation or Seasonal)
+	231		Condominium where land owned in common is less
+			than 6 acres
+	232		Condominium where land owned in common is 6
+			acres or more
+	233		Co-op Apartment
+
+250		Mobile Home
+
+300-399 COMMERCIAL CODES
+
+310		Automobile, Truck, Bus and relates sales and/or services
+	311		Automobile, Truck, Bus sales.  In most cases will
+			include service and repair
+	312		Filling stations and garages
+	313		Automotive repair.  Not associated with a fillings
+			station or automotive sales organization
+	314		Car washes
+	315		Automobile and truck rental
+	316		Trucking terminals
+
+320		Transportation (other than automotive) and Communication
+	321		Airports and buildings, airplane sales and/or service
+	322		Railroads and/or associated facilities
+	323		Ferry and barge docks
+	324		Marinas, pleasure boat sales
+	325		Television studios, broadcasting antenna, etc.
+	326		Radio studios and broadcasting antenna
+	327		Cable TV
+	328		Telephone and telegraph
+	
+330		Rentals
+	331		Business blocks
+	332		Office buildings
+	333		Apartment houses (5 or more)
+	334		Bank building
+	335		Shopping Centers
+	336		Buildings
+	337		Mobile Home parks
+
+340		Wholesale, Storage, Warehouse and Distribution Facilities
+	341		Beverage, soft drinks, beer, wine, etc.
+	342		Groceries
+	343		Gasoline, diesel fuel, heating oil distribution
+	344		Tire, battery, automotive parts distribution
+	347		General warehouse
+	348		Boat storage
+
+350		Traveler Accommodations and Restaurants
+	351		Hotel
+	352		Motel
+	353		Inn, tourist home, overnight cabins
+	354		Lodges
+	355		Snack bars, creme stands, fast food, etc.
+	356		Restaurants
+
+360		Service and Health
+	361		Hospitals
+	362		Nursing Homes, convalescents or rest homes, clinics
+	363		Funeral Homes, morgues, crematories
+	364		Cemeteries
+	365		Laundromats and dry cleaning
+
+380		Sales
+	381		Small retail shops and stores
+	382		Supermarkets
+	383		Building supply and lumber yards
+	384		Heating oil and propane gas
+	385		Animal feed and grain, seed and fertilizer
+	386		Farm machinery and equipment
+	387		Neighborhood small store and groceries
+
+390		Miscellaneous and Multi-use
+	391		Office building and apartments
+	392		Motel and restaurants
+	393		Store and apartments
+	395		Lodge and restaurants
+
+400-499 INDUSTRIAL CODES
+
+400		Industrial
+	401		Energy
+	402		Gas and Oil
+	405		Other Energy Products
+
+410		Electric (Includes generating, transmission and distribution
+		facilities
+	411		Central Vermont Public Service Corporation
+	412		Green Mountain Power Corporation
+	413		Vermont Electric Power Company
+	414		New England Power Company
+	415		Vermont Electric Co-operative
+	416		Other
+
+420		Mining and Quarrying
+	421		Granite
+	422		Marble
+	423		Limestone
+	424		Sand and gravel
+	425		Magnesium or talc
+	426		Asbestos
+	427		Other
+
+430		Wood Manufacturing
+	431		Pulp and paper mills
+	432		Plywood and veneer mills
+	433		Sawmills and finish mills
+	434		Wood consumer products
+
+440		Creameries and Dairy Products
+
+450		Other Industry
+	451		Heavy Industry
+	454		Medium Industry
+	455		Light Industry
+
+500		Operating Farms
+
+510		Large Animal and associated products
+	511		Dairy farms and dairy products
+	512		Beef, veal, dairy replacements
+	513		Horses, ponies
+	514		Sheep and wool
+	515		Hogs
+	519		Any other animal whose weight at maturity will
+			usually exceed 100 pounds
+
+520		Birds and associated products
+	521		Hens, broilers, baby chicks, eggs
+	522		Turkeys, poults, turkey eggs
+	523		Ducks, geese, other aquatic fowl
+	524		Game birds and show birds; pheasant, peafowl, etc.
+
+530		All other agricultural enterprises involving 
+		living creatures
+	531		Rabbits for meat or fur
+	532		Fur farm; mink, chinchilla, fox, etc.
+	533		Bees and associated products
+	534		Fish, frogs, aquatic products
+
+540		Hay, grains, corn, potatoes, dry bean, etc.
+
+550		String beans, sweet corn, cabbage, carrots, etc.
+
+560		Orchards
+	561		Apple
+	563		Sugar bush
+	565		Other fruits or nuts
+
+570		Other Fruits and Berries
+		Includes all fruits and berries which grow on vines,
+		plants or bushes
+
+580		Nursery and Greenhouse
+
+590		Fish, Game and Wildlife Preserves
+
+600		Timberland
+
+700		Government Use
+	710		Federal
+	720		State
+	730		County
+	740		Local
+	750		School District
+
+800		Open Land/Miscellaneous
+
+810		For Single Family Dwelling
+	811		Rural
+	812		Urban
+
+820		Development
+	821		Rural
+	822		Urban
+
+830		Recreation
+	831		Rural
+	832		Urban
+
+840		Industrial
+	841		Rural
+	842		Urban
+
+850		Commercial
+	851		Rural
+	852		Urban
+
+860		Farm Use
+
+870		Governmental
+
+880		Vacation
+
+890		Other
+	891		Right of Way
+	892		Establishment of Boundary lines
+	894		Water Rights
+
+900		Other
+
+910		Religious
+
+920		Fraternal
+
+930		Non-Profit Organization
+
+940		Mineral Rights
+
+PROPERTY TRANSFER EXEMPTION CODES
+
+See Line L instructions on Page 2 and 3 of the Vermont Property Transfer Tax Return Booklet for a list of the exemption codes
+
+LAND GAINS EXEMPTION CODES
+
+See Line R instructions on Page 4 of the Vermont Property Transfer Tax Return Booklet for a list of the exemption codes
+
+TRANSFER TYPE CODES
+
+For Transfer Type codes see Line E INTEREST IN PROPERTY on the Vermont Property Transfer Tax Return
